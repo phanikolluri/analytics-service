@@ -8,6 +8,7 @@ jobs:
       - name: build image
         run: make docker-build
 
+
   eks-deploy:
     runs-on: self-hosted
     steps:
