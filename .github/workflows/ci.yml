@@ -1,9 +1,8 @@
-name: Analytics Service
+name: CI -  Analytics Service
 on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-
       - name: List files in the repository
         run: ls -ltr
